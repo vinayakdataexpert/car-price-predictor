@@ -33,4 +33,4 @@ if st.button('Predict'):
     if year == 0.00 or kms_driven == 0.00:        
         st.header("Please type Valid Year and Km Driven")
     else:
-        st.header("₹", str(result)
+        st.header("₹", str(result[0]))
