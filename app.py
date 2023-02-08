@@ -30,9 +30,9 @@ if st.button('Predict'):
                              'model': [car_model_2]})
     
     result = model.predict(input_df)
-    if year == 0.00 or kms_driven == 0.00:
-        st.header("Please type Valid Year and Km Driven")
-    else:
-        st.header("₹" , str(result))
+#     if year == 0.00 or kms_driven == 0.00:
+#         st.header("Please type Valid Year and Km Driven")
+#     else:
+    st.header("₹" , str(result))
 # ['company', 'year', 'kms_driven', 'fuel_type', 'model']
 # py -m streamlit run app.py   To run this app.py
