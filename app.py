@@ -30,4 +30,4 @@ if st.button('Predict'):
                              'model': [car_model_2]})
     
     result = model.predict(input_df)
-    st.header("₹" , str(result))
+    result
